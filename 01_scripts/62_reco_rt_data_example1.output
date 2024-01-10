@@ -1,0 +1,12 @@
+../21_recos_rt/vol0082_vis1_slc16/01_rtnlinv/img_rt			0.000010 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/02_rtnlinv_rovir/img_rt		0.005000 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/01_rtnlinv/img_rt_fil_nlmean		0.001000 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/02_rtnlinv_rovir/img_rt_fil_nlmean	0.020000 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/11_resnet_mse/img			0.000500 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/12_resnet_mad/img			0.000500 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/13_resnet_mse_first/img		0.000010 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/14_resnet_mad_first/img		0.000010 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/21_rovir_resnet_mse/img		0.003000 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/22_rovir_resnet_mad/img		0.005000 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/23_rovir_resnet_mse_first/img		0.005000 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/24_rovir_resnet_mad_first/img		0.005000 CFL_NRMSE

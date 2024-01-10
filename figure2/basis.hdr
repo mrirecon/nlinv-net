@@ -1,0 +1,8 @@
+# Dimensions
+1530 4 1 1 1 1 1 1 1 1 1 
+# Command
+transpose 0 5 basis1 /home/mblum/Projects/nlinv-net/00_data/03_t1_hr/basis 
+# Files
+ >/home/mblum/Projects/nlinv-net/00_data/03_t1_hr/basis <basis1
+# Creator
+BART v0.8.00-670-gc96bfd2
