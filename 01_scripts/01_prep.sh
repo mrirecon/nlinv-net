@@ -155,7 +155,7 @@ if [ $COILS -gt 0 ]; then
 
 		#OMP_NUM_THREADS=1 for better reproducibility as non-deterministic nuFFT may lead to slightly different
 		#coil compression matrices such that the difference propagates through the reconstructions
-		bart -p$(bart bitmask 13) -r ksp_cal nufft -p p -i -x$GRD:$GRD:1 trj_cal ksp_cal cim
+		OMP_NUM_THREADS=1 bart -p$(bart bitmask 13) -r ksp_cal nufft -p p -i -x$GRD:$GRD:1 trj_cal ksp_cal cim
 
 		bart resize -c 0 $((GRD/2)) 1 $((GRD/2)) cim tmp
 		bart resize -c 0 $GRD 1 $GRD tmp cen
