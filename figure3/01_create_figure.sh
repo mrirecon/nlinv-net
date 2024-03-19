@@ -16,25 +16,25 @@ CON="$($SCRIPT_DIR/../01_scripts/53_read_view.sh $SCRIPT_DIR/view.sh)"
 CON_TIME="$($SCRIPT_DIR/../01_scripts/53_read_view.sh $SCRIPT_DIR/view_time.sh)"
 
 bart copy $SRC/02_rtnlinv_rovir/img_rt tmp ; 		cfl2png -z3 -S65535 $CON	tmp img_rovir_nlinv
-bart copy $SRC/21_rovir_resnet_mse/img tmp ; 		cfl2png -z3 -S65535 $CON	tmp img_rovir_mse
-bart copy $SRC/22_rovir_resnet_mad/img tmp ; 		cfl2png -z3 -S65535 $CON	tmp img_rovir_mad
-bart copy $SRC/23_rovir_resnet_mse_first/img tmp ; 	cfl2png -z3 -S65535 $CON	tmp img_rovir_mse_first
-bart copy $SRC/24_rovir_resnet_mad_first/img tmp ; 	cfl2png -z3 -S65535 $CON	tmp img_rovir_mad_first
+bart copy $SRC/41_rovir_resnet_mse/img tmp ; 		cfl2png -z3 -S65535 $CON	tmp img_rovir_mse
+bart copy $SRC/42_rovir_resnet_mad/img tmp ; 		cfl2png -z3 -S65535 $CON	tmp img_rovir_mad
+bart copy $SRC/43_rovir_resnet_mse_first/img tmp ; 	cfl2png -z3 -S65535 $CON	tmp img_rovir_mse_first
+bart copy $SRC/44_rovir_resnet_mad_first/img tmp ; 	cfl2png -z3 -S65535 $CON	tmp img_rovir_mad_first
 bart copy $SRC/02_rtnlinv_rovir/img_rt tmp ; 		cfl2png -z3 -S65535 $CON_TIME	tmp img_rovir_time_nlinv
-bart copy $SRC/21_rovir_resnet_mse/img tmp ; 		cfl2png -z3 -S65535 $CON_TIME	tmp img_rovir_time_mse
-bart copy $SRC/22_rovir_resnet_mad/img tmp ; 		cfl2png -z3 -S65535 $CON_TIME	tmp img_rovir_time_mad
-bart copy $SRC/23_rovir_resnet_mse_first/img tmp ; 	cfl2png -z3 -S65535 $CON_TIME	tmp img_rovir_time_mse_first
-bart copy $SRC/24_rovir_resnet_mad_first/img tmp ; 	cfl2png -z3 -S65535 $CON_TIME	tmp img_rovir_time_mad_first
+bart copy $SRC/41_rovir_resnet_mse/img tmp ; 		cfl2png -z3 -S65535 $CON_TIME	tmp img_rovir_time_mse
+bart copy $SRC/42_rovir_resnet_mad/img tmp ; 		cfl2png -z3 -S65535 $CON_TIME	tmp img_rovir_time_mad
+bart copy $SRC/43_rovir_resnet_mse_first/img tmp ; 	cfl2png -z3 -S65535 $CON_TIME	tmp img_rovir_time_mse_first
+bart copy $SRC/44_rovir_resnet_mad_first/img tmp ; 	cfl2png -z3 -S65535 $CON_TIME	tmp img_rovir_time_mad_first
 bart copy $SRC/01_rtnlinv/img_rt tmp ; 			cfl2png -z3 -S65535 $CON	tmp img_nlinv
-bart copy $SRC/11_resnet_mse/img tmp ; 			cfl2png -z3 -S65535 $CON	tmp img_mse
-bart copy $SRC/12_resnet_mad/img tmp ; 			cfl2png -z3 -S65535 $CON	tmp img_mad
-bart copy $SRC/13_resnet_mse_first/img tmp ; 		cfl2png -z3 -S65535 $CON	tmp img_mse_first
-bart copy $SRC/14_resnet_mad_first/img tmp ; 		cfl2png -z3 -S65535 $CON	tmp img_mad_first
+bart copy $SRC/31_resnet_mse/img tmp ; 			cfl2png -z3 -S65535 $CON	tmp img_mse
+bart copy $SRC/32_resnet_mad/img tmp ; 			cfl2png -z3 -S65535 $CON	tmp img_mad
+bart copy $SRC/33_resnet_mse_first/img tmp ; 		cfl2png -z3 -S65535 $CON	tmp img_mse_first
+bart copy $SRC/34_resnet_mad_first/img tmp ; 		cfl2png -z3 -S65535 $CON	tmp img_mad_first
 bart copy $SRC/01_rtnlinv/img_rt tmp ; 			cfl2png -z3 -S65535 $CON_TIME	tmp img_time_nlinv
-bart copy $SRC/11_resnet_mse/img tmp ; 			cfl2png -z3 -S65535 $CON_TIME	tmp img_time_mse
-bart copy $SRC/12_resnet_mad/img tmp ; 			cfl2png -z3 -S65535 $CON_TIME	tmp img_time_mad
-bart copy $SRC/13_resnet_mse_first/img tmp ; 		cfl2png -z3 -S65535 $CON_TIME	tmp img_time_mse_first
-bart copy $SRC/14_resnet_mad_first/img tmp ; 		cfl2png -z3 -S65535 $CON_TIME	tmp img_time_mad_first
+bart copy $SRC/31_resnet_mse/img tmp ; 			cfl2png -z3 -S65535 $CON_TIME	tmp img_time_mse
+bart copy $SRC/32_resnet_mad/img tmp ; 			cfl2png -z3 -S65535 $CON_TIME	tmp img_time_mad
+bart copy $SRC/33_resnet_mse_first/img tmp ; 		cfl2png -z3 -S65535 $CON_TIME	tmp img_time_mse_first
+bart copy $SRC/34_resnet_mad_first/img tmp ; 		cfl2png -z3 -S65535 $CON_TIME	tmp img_time_mad_first
 
 
 inkscape --export-filename=$(basename $SCRIPT_DIR).eps 00_template.svg &>/dev/null

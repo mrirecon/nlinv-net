@@ -9,6 +9,8 @@
 ./01_scripts/64_reco_t1_apex.sh
 ./01_scripts/65_reco_t1_mid.sh
 ./01_scripts/66_reco_t1_base.sh
+./01_scripts/67_reco_rt_data_example1_raw.sh
+./01_scripts/68_reco_rt_data_example2_raw.sh
 
 ./figure2/01_create_figure.sh
 ./figure3/01_create_figure.sh
@@ -18,3 +20,12 @@
 ./figure7/01_create_figure.sh
 ./figure8/01_create_figure.sh
 
+./sup_figure2/01_create_figure.sh
+./sup_figure3/01_create_figure.sh
+
+./movie1/01_create_figure.sh
+./movie2/01_create_figure.sh
+./movie3/01_create_figure.sh
+./movie4/01_create_figure.sh
+./movie5/01_create_figure.sh
+./movie6/01_create_figure.sh

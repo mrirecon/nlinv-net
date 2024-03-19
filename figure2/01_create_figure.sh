@@ -18,7 +18,7 @@ bart signal -F -I -1 0.5:1.5:4 -3 0.5:1.25:3 -r0.00267 -n1530 sig
 bart reshape $(bart bitmask 0 1 5 6 7) 1530 12 1 1 1 sig $SCRIPT_DIR/sig
 
 cd $SCRIPT_DIR
-python 02_basis.py
+python3 02_basis.py
 cd $WDIR
 
 $SCRIPT_DIR/../01_scripts/10_reco_rt.sh -R -s10                  -C10 -O2   $RAW $WDIR/img_20

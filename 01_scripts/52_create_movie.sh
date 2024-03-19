@@ -48,6 +48,6 @@ wait
 
 for f in $WORKDIR/combined_*_f0000*png ; do
 
-	ffmpeg -y -framerate 30 -i "${f//_f0000/_f%04d}" -c:v libx264 -f mp4 $OUT.mp4 &>/dev/null
+	ffmpeg -y -framerate 30 -i "${f//_f0000/_f%04d}" -c:v libx264 -f mp4 -vf format=yuv420p $OUT.mp4
 done
 

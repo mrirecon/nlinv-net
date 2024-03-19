@@ -34,7 +34,7 @@ The following directories are set by default to the respective directories in th
 
 ## Datasets on Zenodo
 
-Pretrained network weights are available at Zenodo (DOI: 10.5281/zenodo.10493121). 
+Pretrained network weights are available at Zenodo (DOI: [10.5281/zenodo.10493121](https://zenodo.org/records/10845041/files/)). 
 
 Radial real-time data is available at Zenodo in the following datasets:
 * Part 1: 10.5281/zenodo.10492333
