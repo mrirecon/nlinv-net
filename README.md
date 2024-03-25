@@ -59,9 +59,9 @@ Radial inversion recovery data is available at Zenodo in the following datasets:
 For retraining the networks, all raw data can be downloaded with the scripts contained in *00_data/01_download_raw_data/*.
 The directories *11_networks_rt/* and *12_networks_t1* contain network configurations in the respective *config.sh* file. To retrain a network, run
 ```
-$ 01_scripts/01_scripts/21_train_network_rt.sh 11_networks_rt/<network>/
+$ 01_scripts/21_train_network_rt.sh 11_networks_rt/<network>/
 
-$ 01_scripts/01_scripts/23_train_network_t1.sh 12_networks_t1/<network>/
+$ 01_scripts/23_train_network_t1.sh 12_networks_t1/<network>/
 ```
 Multi-gpu support is implemented via openMPI which can be controlled with the *MPIRUN* variable in the respective config.
 For training on HPC systems utilizing the Slurm workload manager, respective training scripts exist in the script directory. The configurations of the pre-trained networks contain the options to be trained on four GPUs.
