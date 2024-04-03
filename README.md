@@ -38,7 +38,7 @@ Pretrained network weights are available at Zenodo (DOI: 10.5281/zenodo.10493121
 
 Radial real-time data is available at Zenodo in the following datasets:
 * Part 1: 10.5281/zenodo.10492333
-* Part 2: 10.5281/zenodo.10492337
+* Part 2: 10.5281/zenodo.10912299
 * Part 3: 10.5281/zenodo.10492343
 * Part 4: 10.5281/zenodo.10492455
 * Part 5: 10.5281/zenodo.10493095
