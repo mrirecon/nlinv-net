@@ -11,6 +11,7 @@
 ./01_scripts/66_reco_t1_base.sh
 ./01_scripts/67_reco_rt_data_example1_raw.sh
 ./01_scripts/68_reco_rt_data_example2_raw.sh
+./01_scripts/69_reco_lr_data_example.sh
 
 ./figure2/01_create_figure.sh
 ./figure3/01_create_figure.sh
@@ -22,6 +23,7 @@
 
 ./sup_figure2/01_create_figure.sh
 ./sup_figure3/01_create_figure.sh
+./sup_figure4/01_create_figure.sh
 
 ./movie1/01_create_figure.sh
 ./movie2/01_create_figure.sh

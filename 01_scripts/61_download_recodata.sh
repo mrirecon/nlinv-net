@@ -27,10 +27,10 @@ download()
 )
 
 #Download Network Weights
-download https://zenodo.org/records/10845041/files/11_networks_rt2.zip 11_networks_rt2.zip
-download https://zenodo.org/records/10845041/files/12_networks_t1.zip 12_networks_t1.zip
+download https://zenodo.org/records/11469859/files/11_networks_rt3.zip 11_networks_rt3.zip
+download https://zenodo.org/records/11469859/files/12_networks_t1.zip 12_networks_t1.zip
 
-unzip -o 11_networks_rt2.zip
+unzip -o 11_networks_rt3.zip
 unzip -o 12_networks_t1.zip
 
 
