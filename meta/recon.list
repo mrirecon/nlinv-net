@@ -1,3 +1,4 @@
+./01_scripts/60_clean_recos.sh
 ./01_scripts/61_download_recodata.sh
 ./01_scripts/62_reco_rt_data_example1.sh
 ./01_scripts/63_reco_rt_data_example2.sh

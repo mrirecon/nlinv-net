@@ -9,7 +9,7 @@ SLICE=-1
 
 CC=10
 ITER=6
-COS=1.25
+COS=2
 
 OS=1.5
 BR=160
