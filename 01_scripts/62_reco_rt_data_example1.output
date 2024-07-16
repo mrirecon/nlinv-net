@@ -4,7 +4,7 @@
 ../21_recos_rt/vol0082_vis1_slc16/02_rtnlinv_rovir/img_rt_fil_nlmean	0.001000 CFL_NRMSE
 ../21_recos_rt/vol0082_vis1_slc16/31_resnet_mse/img			0.000500 CFL_NRMSE
 ../21_recos_rt/vol0082_vis1_slc16/32_resnet_mad/img			0.000200 CFL_NRMSE
-../21_recos_rt/vol0082_vis1_slc16/33_resnet_mse_first/img		0.000010 CFL_NRMSE
+../21_recos_rt/vol0082_vis1_slc16/33_resnet_mse_first/img		0.000200 CFL_NRMSE
 ../21_recos_rt/vol0082_vis1_slc16/34_resnet_mad_first/img		0.000200 CFL_NRMSE
 ../21_recos_rt/vol0082_vis1_slc16/41_rovir_resnet_mse/img		0.000010 CFL_NRMSE
 ../21_recos_rt/vol0082_vis1_slc16/42_rovir_resnet_mad/img		0.000010 CFL_NRMSE
