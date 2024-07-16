@@ -2,6 +2,8 @@
 #Copyright 2023. TU Graz. Institute of Biomedical Imaging.
 #Author: Moritz Blumenthal
 
+export BART_COMPAT_VERSION="v0.9.00"
+
 set -eu
 SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )
 

@@ -2,6 +2,8 @@
 #Copyright 2023. TU Graz. Institute of Biomedical Imaging.
 #Author: Moritz Blumenthal
 
+export BART_COMPAT_VERSION="v0.9.00"
+
 FSIZE=$1
 INPUT=$(readlink -f $2)
 OUTPUT=$(readlink -f $3)
