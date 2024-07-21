@@ -1,0 +1,10 @@
+../22_recos_t1/vol0084_vis1_base/01_nlinv/img			0.000050 CFL_NRMSE
+../22_recos_t1/vol0084_vis1_base/02_nlinv_rovir/img		0.000050 CFL_NRMSE
+../22_recos_t1/vol0084_vis1_base/03_pics_l0.001/img		0.000050 CFL_NRMSE
+../22_recos_t1/vol0084_vis1_base/03_pics_l0.002/img		0.000050 CFL_NRMSE
+../22_recos_t1/vol0084_vis1_base/03_pics_l0.003/img		0.000050 CFL_NRMSE
+../22_recos_t1/vol0084_vis1_base/03_pics_l0.008/img		0.010000 CFL_NRMSE
+../22_recos_t1/vol0084_vis1_base/04_pics_rovir_l0.001/img	0.000100 CFL_NRMSE
+../22_recos_t1/vol0084_vis1_base/04_pics_rovir_l0.002/img	0.000100 CFL_NRMSE
+../22_recos_t1/vol0084_vis1_base/04_pics_rovir_l0.003/img	0.000100 CFL_NRMSE
+../22_recos_t1/vol0084_vis1_base/04_pics_rovir_l0.008/img	0.000100 CFL_NRMSE

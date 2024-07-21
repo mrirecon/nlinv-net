@@ -54,7 +54,7 @@ fi
 
 if [[ ! -f $WGH/weights$EPOCH.hdr ]] ; then
 	echo "$WGH/weights$EPOCH does not exist. Skip."
-	exit 0
+	exit 1
 fi
 
 WORKDIR=`mktemp -d 2>/dev/null || mktemp -d -t 'mytmpdir'`

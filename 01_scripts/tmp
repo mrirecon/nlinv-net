@@ -1,0 +1,6 @@
+for f in ../22_recos_t1/vol0084_vis1_apex_nlinv ../22_recos_t1/vol0084_vis1_apex_11_resnet_mse ../22_recos_t1/vol0084_vis1_apex_12_resnet_mad ../22_recos_t1/vol0084_vis1_apex_13_resnet_mse_first ../22_recos_t1/vol0084_vis1_apex_14_resnet_mad_first ../22_recos_t1/vol0084_vis1_apex_21_rovir_resnet_mse ../22_recos_t1/vol0084_vis1_apex_22_rovir_resnet_mad ../22_recos_t1/vol0084_vis1_apex_23_rovir_resnet_mse_first ../22_recos_t1/vol0084_vis1_apex_24_rovir_resnet_mad_first
+do
+
+cp 64_reco_t1_apex.sh $f.sh
+
+done

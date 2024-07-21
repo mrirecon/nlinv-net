@@ -1,0 +1,4 @@
+vol0056_vis1_slc13/01_rtnlinv/img_rt			0.000010 CFL_NRMSE
+vol0056_vis1_slc13/02_rtnlinv_rovir/img_rt		0.000100 CFL_NRMSE
+vol0056_vis1_slc13/01_rtnlinv/img_rt_fil_nlmean		0.001000 CFL_NRMSE
+vol0056_vis1_slc13/02_rtnlinv_rovir/img_rt_fil_nlmean	0.001500 CFL_NRMSE
