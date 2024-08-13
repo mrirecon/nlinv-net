@@ -56,7 +56,8 @@ Radial inversion recovery data is available at Zenodo in the following datasets:
 
 ## Retrain Networks
 
-For retraining the networks, all raw data can be downloaded with the scripts contained in *00_data/01_download_raw_data/*.
+For retraining the networks, all raw data can be downloaded with the scripts contained in *00_data/01_download_raw_data/* and the training datasets can be prprocessed using the respective scripts in *00_data
+/00_create_datasets/*.
 The directories *11_networks_rt/* and *12_networks_t1* contain network configurations in the respective *config.sh* file. To retrain a network, run
 ```
 $ 01_scripts/21_train_network_rt.sh 11_networks_rt/<network>/
