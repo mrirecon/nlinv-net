@@ -93,13 +93,18 @@ export BART_DEBUG_LEVEL=4
 time bart -l$(bart bitmask 13) -r ksp nlinv --cgiter=30 -N -S --real-time -g --sens-os=$COS -i$ITER -x${DIMS}:${DIMS}:1 -ttrj_scl ksp img col
 bart avg $(bart bitmask 10) col ${IMG}_col
 
-bart -l$(bart bitmask 13) -r ksp pics -g -i300 -S -e -R L:7:7:.001 -t trj_scl ksp ${IMG}_col img
+PICS_ADD_OPTS=""
+if bart pics --interface 2>&1 | grep -q fista_last >/dev/null 2>&1 ; then
+	PICS_ADD_OPTS="--fista_last"
+fi
+
+bart -l$(bart bitmask 13) -r ksp pics -g -i300 -S -e -R L:7:7:.001 $PICS_ADD_OPTS -t trj_scl ksp ${IMG}_col img
 bart resize -c 0 $BR 1 $BR img ${IMG}_001
 
-bart -l$(bart bitmask 13) -r ksp pics -g -i300 -S -e -R L:7:7:.005 -t trj_scl ksp ${IMG}_col img
+bart -l$(bart bitmask 13) -r ksp pics -g -i300 -S -e -R L:7:7:.005 $PICS_ADD_OPTS -t trj_scl ksp ${IMG}_col img
 bart resize -c 0 $BR 1 $BR img ${IMG}_005
 
-bart -l$(bart bitmask 13) -r ksp pics -g -i300 -S -e -R L:7:7:.010 -t trj_scl ksp ${IMG}_col img
+bart -l$(bart bitmask 13) -r ksp pics -g -i300 -S -e -R L:7:7:.010 $PICS_ADD_OPTS -t trj_scl ksp ${IMG}_col img
 bart resize -c 0 $BR 1 $BR img ${IMG}_010
 
 

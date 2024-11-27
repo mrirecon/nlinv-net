@@ -83,12 +83,17 @@ fi
 
 bart nlinv -x$DIMS:$DIMS:1 -B $DAT/basis -S --cgiter=30 -M0.001 -g -i12 -p$WORKDIR/msk -ttrj_og $WORKDIR/ksp coeff_nlinv col
 
-if [[ "" == $LAM ]] ; then 
+PICS_ADD_OPTS=""
+if bart pics --interface 2>&1 | grep -q fista_last >/dev/null 2>&1 ; then
+	PICS_ADD_OPTS="--fista_last"
+fi
+
+if [[ "" == $LAM ]] ; then
 
 	bart resize -c 0 $BR 1 $BR coeff_nlinv $IMG
-else 
+else
 	bart normalize $(bart bitmask 3) col colm
-	bart pics -g -i500 -p $WORKDIR/msk -B $DAT/basis -S $LAM -e --gpu-gridding -ttrj_og $WORKDIR/ksp colm coeff_pics
+	bart pics -g -i500 -p $WORKDIR/msk -B $DAT/basis -S $LAM $PICS_ADD_OPTS -e --gpu-gridding -ttrj_og $WORKDIR/ksp colm coeff_pics
 	bart resize -c 0 $BR 1 $BR coeff_pics $IMG
 fi
 
