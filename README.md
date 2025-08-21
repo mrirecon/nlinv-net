@@ -1,3 +1,6 @@
+**This repository has moved to: https://gitlab.tugraz.at/ibi/mrirecon/papers/nlinv-net**
+
+
 # NLINV-Net
 
 This repository contains scripts to train and apply NLINV-Net on cardiac real-time data.
